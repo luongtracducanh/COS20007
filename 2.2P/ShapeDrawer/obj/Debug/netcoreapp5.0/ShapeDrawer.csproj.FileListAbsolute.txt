@@ -1,0 +1,16 @@
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.exe
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.deps.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.runtimeconfig.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.runtimeconfig.dev.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.dll
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\bin\Debug\netcoreapp5.0\ShapeDrawer.pdb
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.csproj.AssemblyReference.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.AssemblyInfoInputs.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.AssemblyInfo.cs
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.csproj.CoreCompileInputs.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.dll
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\refint\ShapeDrawer.dll
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.pdb
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ShapeDrawer.genruntimeconfig.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\2.2P\ShapeDrawer\obj\Debug\netcoreapp5.0\ref\ShapeDrawer.dll

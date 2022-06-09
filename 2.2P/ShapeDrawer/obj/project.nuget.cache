@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ai5BhD8FnFA1gaOH9kGHG4yJkZ0upyYo/eKAbgmofasE4IfCQUSc+5BpNnvp4JKV0aEMzZJ9QejjKBXepnnkaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\2.2P\\ShapeDrawer\\ShapeDrawer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
+    "C:\\Users\\Pro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Pro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Pro\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
