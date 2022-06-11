@@ -1,1 +1,1 @@
-Weekly task filesof COS20007 - Object Oriented Programming (Summer 2022)
+Weekly tasks of COS20007 - Object Oriented Programming (Summer 2022)
