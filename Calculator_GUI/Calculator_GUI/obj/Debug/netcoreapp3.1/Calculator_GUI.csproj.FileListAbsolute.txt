@@ -1,0 +1,16 @@
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.exe
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.deps.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.runtimeconfig.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.runtimeconfig.dev.json
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.dll
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\bin\Debug\netcoreapp3.1\Calculator_GUI.pdb
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.csproj.AssemblyReference.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.csproj.GenerateResource.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.AssemblyInfoInputs.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.AssemblyInfo.cs
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.dll
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.pdb
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.genruntimeconfig.cache
+C:\Users\Pro\Documents\Swinburne\COS20007\Tasks\6.6HD\Calculator_GUI\Calculator_GUI\obj\Debug\netcoreapp3.1\Calculator_GUI.Calculator.resources
