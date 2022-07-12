@@ -44,204 +44,206 @@
             this.multiply = new System.Windows.Forms.Button();
             this.divide = new System.Windows.Forms.Button();
             this.subtract = new System.Windows.Forms.Button();
-            this.equal_Button = new System.Windows.Forms.Button();
+            this.equal = new System.Windows.Forms.Button();
             this.clear = new System.Windows.Forms.Button();
             this.clear_entry = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.TextBox();
             this.equation_display = new System.Windows.Forms.Label();
+            this.backspace = new System.Windows.Forms.Button();
+            this.Negate_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // seven
             // 
             this.seven.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.seven.Location = new System.Drawing.Point(12, 62);
+            this.seven.Location = new System.Drawing.Point(12, 61);
             this.seven.Name = "seven";
             this.seven.Size = new System.Drawing.Size(45, 45);
             this.seven.TabIndex = 0;
             this.seven.Text = "7";
             this.seven.UseVisualStyleBackColor = true;
-            this.seven.Click += new System.EventHandler(this.button_Click);
+            this.seven.Click += new System.EventHandler(this.Button_Click);
             // 
             // eight
             // 
             this.eight.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.eight.Location = new System.Drawing.Point(63, 62);
+            this.eight.Location = new System.Drawing.Point(63, 61);
             this.eight.Name = "eight";
             this.eight.Size = new System.Drawing.Size(45, 45);
             this.eight.TabIndex = 1;
             this.eight.Text = "8";
             this.eight.UseVisualStyleBackColor = true;
-            this.eight.Click += new System.EventHandler(this.button_Click);
+            this.eight.Click += new System.EventHandler(this.Button_Click);
             // 
             // nine
             // 
             this.nine.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nine.Location = new System.Drawing.Point(114, 62);
+            this.nine.Location = new System.Drawing.Point(114, 61);
             this.nine.Name = "nine";
             this.nine.Size = new System.Drawing.Size(45, 45);
             this.nine.TabIndex = 2;
             this.nine.Text = "9";
             this.nine.UseVisualStyleBackColor = true;
-            this.nine.Click += new System.EventHandler(this.button_Click);
+            this.nine.Click += new System.EventHandler(this.Button_Click);
             // 
             // six
             // 
             this.six.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.six.Location = new System.Drawing.Point(114, 113);
+            this.six.Location = new System.Drawing.Point(114, 112);
             this.six.Name = "six";
             this.six.Size = new System.Drawing.Size(45, 45);
             this.six.TabIndex = 3;
             this.six.Text = "6";
             this.six.UseVisualStyleBackColor = true;
-            this.six.Click += new System.EventHandler(this.button_Click);
+            this.six.Click += new System.EventHandler(this.Button_Click);
             // 
             // five
             // 
             this.five.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.five.Location = new System.Drawing.Point(63, 113);
+            this.five.Location = new System.Drawing.Point(63, 112);
             this.five.Name = "five";
             this.five.Size = new System.Drawing.Size(45, 45);
             this.five.TabIndex = 4;
             this.five.Text = "5";
             this.five.UseVisualStyleBackColor = true;
-            this.five.Click += new System.EventHandler(this.button_Click);
+            this.five.Click += new System.EventHandler(this.Button_Click);
             // 
             // four
             // 
             this.four.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.four.Location = new System.Drawing.Point(12, 113);
+            this.four.Location = new System.Drawing.Point(12, 112);
             this.four.Name = "four";
             this.four.Size = new System.Drawing.Size(45, 45);
             this.four.TabIndex = 5;
             this.four.Text = "4";
             this.four.UseVisualStyleBackColor = true;
-            this.four.Click += new System.EventHandler(this.button_Click);
+            this.four.Click += new System.EventHandler(this.Button_Click);
             // 
             // one
             // 
             this.one.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.one.Location = new System.Drawing.Point(12, 164);
+            this.one.Location = new System.Drawing.Point(12, 163);
             this.one.Name = "one";
             this.one.Size = new System.Drawing.Size(45, 45);
             this.one.TabIndex = 6;
             this.one.Text = "1";
             this.one.UseVisualStyleBackColor = true;
-            this.one.Click += new System.EventHandler(this.button_Click);
+            this.one.Click += new System.EventHandler(this.Button_Click);
             // 
             // two
             // 
             this.two.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.two.Location = new System.Drawing.Point(63, 164);
+            this.two.Location = new System.Drawing.Point(63, 163);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(45, 45);
             this.two.TabIndex = 7;
             this.two.Text = "2";
             this.two.UseVisualStyleBackColor = true;
-            this.two.Click += new System.EventHandler(this.button_Click);
+            this.two.Click += new System.EventHandler(this.Button_Click);
             // 
             // three
             // 
             this.three.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.three.Location = new System.Drawing.Point(114, 164);
+            this.three.Location = new System.Drawing.Point(114, 163);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(45, 45);
             this.three.TabIndex = 8;
             this.three.Text = "3";
             this.three.UseVisualStyleBackColor = true;
-            this.three.Click += new System.EventHandler(this.button_Click);
+            this.three.Click += new System.EventHandler(this.Button_Click);
             // 
             // zero
             // 
             this.zero.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.zero.Location = new System.Drawing.Point(12, 215);
+            this.zero.Location = new System.Drawing.Point(63, 214);
             this.zero.Name = "zero";
-            this.zero.Size = new System.Drawing.Size(96, 45);
+            this.zero.Size = new System.Drawing.Size(45, 45);
             this.zero.TabIndex = 9;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
-            this.zero.Click += new System.EventHandler(this.button_Click);
+            this.zero.Click += new System.EventHandler(this.Button_Click);
             // 
             // dec
             // 
             this.dec.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dec.Location = new System.Drawing.Point(114, 215);
+            this.dec.Location = new System.Drawing.Point(114, 214);
             this.dec.Name = "dec";
             this.dec.Size = new System.Drawing.Size(45, 45);
             this.dec.TabIndex = 10;
             this.dec.Text = ".";
             this.dec.UseVisualStyleBackColor = true;
-            this.dec.Click += new System.EventHandler(this.button_Click);
+            this.dec.Click += new System.EventHandler(this.Button_Click);
             // 
             // add
             // 
             this.add.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.add.Location = new System.Drawing.Point(165, 215);
+            this.add.Location = new System.Drawing.Point(165, 214);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(45, 45);
             this.add.TabIndex = 12;
             this.add.Text = "+";
             this.add.UseVisualStyleBackColor = true;
-            this.add.Click += new System.EventHandler(this.operator_Click);
+            this.add.Click += new System.EventHandler(this.Operator_Click);
             // 
             // multiply
             // 
             this.multiply.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.multiply.Location = new System.Drawing.Point(165, 113);
+            this.multiply.Location = new System.Drawing.Point(165, 112);
             this.multiply.Name = "multiply";
             this.multiply.Size = new System.Drawing.Size(45, 45);
             this.multiply.TabIndex = 13;
             this.multiply.Text = "×";
             this.multiply.UseVisualStyleBackColor = true;
-            this.multiply.Click += new System.EventHandler(this.operator_Click);
+            this.multiply.Click += new System.EventHandler(this.Operator_Click);
             // 
             // divide
             // 
             this.divide.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.divide.Location = new System.Drawing.Point(165, 62);
+            this.divide.Location = new System.Drawing.Point(165, 61);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(45, 45);
             this.divide.TabIndex = 14;
             this.divide.Text = "÷";
             this.divide.UseVisualStyleBackColor = true;
-            this.divide.Click += new System.EventHandler(this.operator_Click);
+            this.divide.Click += new System.EventHandler(this.Operator_Click);
             // 
             // subtract
             // 
             this.subtract.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.subtract.Location = new System.Drawing.Point(165, 164);
+            this.subtract.Location = new System.Drawing.Point(165, 163);
             this.subtract.Name = "subtract";
             this.subtract.Size = new System.Drawing.Size(45, 45);
             this.subtract.TabIndex = 15;
             this.subtract.Text = "-";
             this.subtract.UseVisualStyleBackColor = true;
-            this.subtract.Click += new System.EventHandler(this.operator_Click);
+            this.subtract.Click += new System.EventHandler(this.Operator_Click);
             // 
-            // equal_Button
+            // equal
             // 
-            this.equal_Button.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.equal_Button.Location = new System.Drawing.Point(216, 164);
-            this.equal_Button.Name = "equal_Button";
-            this.equal_Button.Size = new System.Drawing.Size(45, 96);
-            this.equal_Button.TabIndex = 16;
-            this.equal_Button.Text = "=";
-            this.equal_Button.UseVisualStyleBackColor = true;
-            this.equal_Button.Click += new System.EventHandler(this.equal_Click);
+            this.equal.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.equal.Location = new System.Drawing.Point(216, 216);
+            this.equal.Name = "equal";
+            this.equal.Size = new System.Drawing.Size(45, 45);
+            this.equal.TabIndex = 16;
+            this.equal.Text = "=";
+            this.equal.UseVisualStyleBackColor = true;
+            this.equal.Click += new System.EventHandler(this.Equal_Click);
             // 
             // clear
             // 
             this.clear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.clear.Location = new System.Drawing.Point(216, 113);
+            this.clear.Location = new System.Drawing.Point(216, 163);
             this.clear.Name = "clear";
             this.clear.Size = new System.Drawing.Size(45, 45);
             this.clear.TabIndex = 17;
             this.clear.Text = "C";
             this.clear.UseVisualStyleBackColor = true;
-            this.clear.Click += new System.EventHandler(this.clear_Click);
+            this.clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // clear_entry
             // 
             this.clear_entry.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.clear_entry.Location = new System.Drawing.Point(216, 62);
+            this.clear_entry.Location = new System.Drawing.Point(216, 113);
             this.clear_entry.Name = "clear_entry";
             this.clear_entry.Size = new System.Drawing.Size(45, 45);
             this.clear_entry.TabIndex = 18;
@@ -252,7 +254,7 @@
             // result
             // 
             this.result.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.result.Location = new System.Drawing.Point(12, 13);
+            this.result.Location = new System.Drawing.Point(12, 12);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(249, 43);
             this.result.TabIndex = 19;
@@ -267,16 +269,40 @@
             this.equation_display.Size = new System.Drawing.Size(0, 20);
             this.equation_display.TabIndex = 20;
             // 
+            // backspace
+            // 
+            this.backspace.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.backspace.Location = new System.Drawing.Point(216, 61);
+            this.backspace.Name = "backspace";
+            this.backspace.Size = new System.Drawing.Size(45, 45);
+            this.backspace.TabIndex = 21;
+            this.backspace.Text = " ⌫";
+            this.backspace.UseVisualStyleBackColor = true;
+            this.backspace.Click += new System.EventHandler(this.Backspace_Click);
+            // 
+            // Negate_Button
+            // 
+            this.Negate_Button.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Negate_Button.Location = new System.Drawing.Point(12, 214);
+            this.Negate_Button.Name = "Negate_Button";
+            this.Negate_Button.Size = new System.Drawing.Size(45, 45);
+            this.Negate_Button.TabIndex = 22;
+            this.Negate_Button.Text = "+/-";
+            this.Negate_Button.UseVisualStyleBackColor = true;
+            this.Negate_Button.Click += new System.EventHandler(this.Negate_Click);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(276, 273);
+            this.Controls.Add(this.Negate_Button);
+            this.Controls.Add(this.backspace);
             this.Controls.Add(this.equation_display);
             this.Controls.Add(this.result);
             this.Controls.Add(this.clear_entry);
             this.Controls.Add(this.clear);
-            this.Controls.Add(this.equal_Button);
+            this.Controls.Add(this.equal);
             this.Controls.Add(this.subtract);
             this.Controls.Add(this.divide);
             this.Controls.Add(this.multiply);
@@ -323,10 +349,12 @@
         private System.Windows.Forms.Button multiply;
         private System.Windows.Forms.Button divide;
         private System.Windows.Forms.Button subtract;
-        private System.Windows.Forms.Button equal_Button;
+        private System.Windows.Forms.Button equal;
         private System.Windows.Forms.Button clear;
         private System.Windows.Forms.Button clear_entry;
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Label equation_display;
+        private System.Windows.Forms.Button backspace;
+        private System.Windows.Forms.Button Negate_Button;
     }
 }
