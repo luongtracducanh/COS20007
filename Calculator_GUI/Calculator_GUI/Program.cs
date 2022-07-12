@@ -10,7 +10,7 @@ namespace Calculator_GUI
     {
         /// <summary>
         ///  The main entry point for the application.
-        ///  All the code and functionality of the program is contained in the Form1.cs file.
+        ///  All the functionality of the program is contained in the Calculator.cs and Operators.cs files.
         /// </summary>
         [STAThread]
         static void Main()

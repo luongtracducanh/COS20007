@@ -50,7 +50,7 @@
             this.result = new System.Windows.Forms.TextBox();
             this.equation_display = new System.Windows.Forms.Label();
             this.backspace = new System.Windows.Forms.Button();
-            this.Negate_Button = new System.Windows.Forms.Button();
+            this.square_root = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // seven
@@ -280,23 +280,23 @@
             this.backspace.UseVisualStyleBackColor = true;
             this.backspace.Click += new System.EventHandler(this.Backspace_Click);
             // 
-            // Negate_Button
+            // square_root
             // 
-            this.Negate_Button.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Negate_Button.Location = new System.Drawing.Point(12, 214);
-            this.Negate_Button.Name = "Negate_Button";
-            this.Negate_Button.Size = new System.Drawing.Size(45, 45);
-            this.Negate_Button.TabIndex = 22;
-            this.Negate_Button.Text = "+/-";
-            this.Negate_Button.UseVisualStyleBackColor = true;
-            this.Negate_Button.Click += new System.EventHandler(this.Negate_Click);
+            this.square_root.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.square_root.Location = new System.Drawing.Point(12, 214);
+            this.square_root.Name = "square_root";
+            this.square_root.Size = new System.Drawing.Size(45, 45);
+            this.square_root.TabIndex = 22;
+            this.square_root.Text = "√";
+            this.square_root.UseVisualStyleBackColor = true;
+            this.square_root.Click += new System.EventHandler(this.Operator_Click);
             // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(276, 273);
-            this.Controls.Add(this.Negate_Button);
+            this.Controls.Add(this.square_root);
             this.Controls.Add(this.backspace);
             this.Controls.Add(this.equation_display);
             this.Controls.Add(this.result);
@@ -355,6 +355,6 @@
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Label equation_display;
         private System.Windows.Forms.Button backspace;
-        private System.Windows.Forms.Button Negate_Button;
+        private System.Windows.Forms.Button square_root;
     }
 }

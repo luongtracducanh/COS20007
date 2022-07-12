@@ -25,7 +25,7 @@ namespace Calculator_GUI
         {
             Button b = (Button)sender;
 
-            if ((result.Text == "0")||(operation_pressed))
+            if ((result.Text == "0") || (operation_pressed))
             {
                 if (b.Text == ".")
                 {
@@ -50,6 +50,8 @@ namespace Calculator_GUI
             {
                 result.Text += b.Text;
             }
+
+            equation_display.Focus();
         }
 
         private void Operator_Click(object sender, EventArgs e)
@@ -58,10 +60,28 @@ namespace Calculator_GUI
 
             if (value != 0)
             {
-                equal.PerformClick();
-                operation_pressed = true;
-                operation = b.Text;
-                equation_display.Text = value + " " + operation;
+                if (b.Text == "√")
+                {
+                    //result.Text = Math.Sqrt(double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Sqrt(double.Parse(result.Text)).ToString();
+                    equal.PerformClick();
+                    operation_pressed = true;
+                    operation = b.Text;
+                    equation_display.Text = operation + "(" + value * value + ")";
+                }
+                else
+                {
+                    equal.PerformClick();
+                    operation_pressed = true;
+                    operation = b.Text;
+                    equation_display.Text = value + " " + operation;
+                }
+            }
+            else if (b.Text == "√")
+            {
+                //result.Text = Math.Sqrt(double.Parse(result.Text)).ToString();
+                result.Text = Operators.Sqrt(double.Parse(result.Text)).ToString();
+                value = Math.Sqrt(double.Parse(result.Text));
             }
             else
             {
@@ -70,6 +90,8 @@ namespace Calculator_GUI
                 operation_pressed = true;
                 equation_display.Text = value + " " + operation;
             }
+
+            equation_display.Focus();
         }
 
         private void Equal_Click(object sender, EventArgs e)
@@ -79,16 +101,20 @@ namespace Calculator_GUI
             switch (operation)
             {
                 case "+":
-                    result.Text = (value + double.Parse(result.Text)).ToString();
+                    //result.Text = (value + double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Add(value, double.Parse(result.Text)).ToString();
                     break;
                 case "-":
-                    result.Text = (value - double.Parse(result.Text)).ToString();
+                    //result.Text = (value - double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Subtract(value, double.Parse(result.Text)).ToString();
                     break;
                 case "×":
-                    result.Text = (value * double.Parse(result.Text)).ToString();
+                    //result.Text = (value * double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Multiply(value, double.Parse(result.Text)).ToString();
                     break;
                 case "÷":
-                    result.Text = (value / double.Parse(result.Text)).ToString();
+                    //result.Text = (value / double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Divide(value, double.Parse(result.Text)).ToString();
                     if ((result.Text == "∞") || ((result.Text == "NaN")))
                     {
                         result.Text = "0";
@@ -103,11 +129,13 @@ namespace Calculator_GUI
 
             value = double.Parse(result.Text);
             operation = "";
+            equation_display.Focus();
         }
 
         private void Clear_Entry_Click(object sender, EventArgs e)
         {
             result.Text = "0";
+            equation_display.Focus();
         }
 
         private void Clear_Click(object sender, EventArgs e)
@@ -115,6 +143,7 @@ namespace Calculator_GUI
             result.Text = "0";
             value = 0;
             equation_display.Text = "";
+            equation_display.Focus();
         }
 
         private void Calculator_KeyPress(object sender, KeyPressEventArgs e)
@@ -175,9 +204,14 @@ namespace Calculator_GUI
                 case "\b":
                     backspace.PerformClick();
                     break;
+                case "s":
+                    square_root.PerformClick();
+                    break;
                 default:
                     break;
             }
+
+            equation_display.Focus();
         }
 
         private void Backspace_Click(object sender, EventArgs e)
@@ -187,6 +221,7 @@ namespace Calculator_GUI
                 int length = result.TextLength - 1;
                 string text = result.Text;
                 result.Clear();
+
                 for (int i = 0; i < length; i++)
                 {
                     result.Text = result.Text + text[i];
@@ -196,11 +231,8 @@ namespace Calculator_GUI
                     result.Text = "0";
                 }
             }
-        }
 
-        private void Negate_Click(object sender, EventArgs e)
-        {
-            
+            equation_display.Focus();
         }
     }
 }
