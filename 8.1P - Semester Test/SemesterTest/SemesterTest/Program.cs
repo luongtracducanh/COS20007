@@ -17,9 +17,6 @@ namespace SemesterTest
             library.AddResource(game1);
             library.AddResource(game2);
 
-            book1.OnLoan = false;
-            game1.OnLoan = false;
-            
             book2.OnLoan = true;
             game2.OnLoan = true;
 

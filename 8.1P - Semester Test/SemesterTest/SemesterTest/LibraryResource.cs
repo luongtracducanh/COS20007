@@ -12,6 +12,7 @@ namespace SemesterTest
         public LibraryResource(string name)
         {
             _name = name;
+            _onLoan = false; // set _onLoan to false initially
         }
 
         public string Name
