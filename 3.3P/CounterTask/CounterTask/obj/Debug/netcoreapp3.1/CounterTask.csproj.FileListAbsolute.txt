@@ -12,3 +12,17 @@ C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\3.3P\CounterTask\CounterTas
 C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.dll
 C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.pdb
 C:\Users\Pro\Documents\Swinburne\COS20007\Assignment\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.genruntimeconfig.cache
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.exe
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.deps.json
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.runtimeconfig.json
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.runtimeconfig.dev.json
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.dll
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\bin\Debug\netcoreapp3.1\CounterTask.pdb
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.csproj.AssemblyReference.cache
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.AssemblyInfoInputs.cache
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.AssemblyInfo.cs
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.csproj.CoreCompileInputs.cache
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.dll
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.pdb
+C:\Users\Pro\Documents\GitHub\COS20007-LTDA\3.3P\CounterTask\CounterTask\obj\Debug\netcoreapp3.1\CounterTask.genruntimeconfig.cache
