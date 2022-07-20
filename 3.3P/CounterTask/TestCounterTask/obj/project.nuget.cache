@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qDKqD7Mz4Pd1Oto03nOBSrMdKm+/nbDxQaaTRabwGwmTUOpDekiW2BREn9NuQhRyLDIWoNM0XFfaeIfP/D2cQw==",
+  "dgSpecHash": "fsDmaWSiag2tSiO0eEFj0LHpzoBclaG/bIUKs9OWt1YooE3wsHcNfvHWjRIe7XZAswGPGOaB/aiwPBn0BLS6Xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
+  "projectFilePath": "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pro\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Pro\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

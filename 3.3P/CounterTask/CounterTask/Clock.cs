@@ -11,6 +11,7 @@ namespace CounterTask
         Counter _seconds = new Counter("seconds");
         Counter _minutes = new Counter("minutes");
         Counter _hours = new Counter("hours");
+		
         public Clock()
         {
 

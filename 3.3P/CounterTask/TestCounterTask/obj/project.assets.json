@@ -3876,11 +3876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
+      "projectUniqueName": "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
       "projectName": "TestCounterTask",
-      "projectPath": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
+      "projectPath": "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\TestCounterTask\\TestCounterTask.csproj",
       "packagesPath": "C:\\Users\\Pro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\TestCounterTask\\obj\\",
+      "outputPath": "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\TestCounterTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3897,8 +3897,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\CounterTask\\CounterTask.csproj": {
-              "projectPath": "C:\\Users\\Pro\\Documents\\Swinburne\\COS20007\\Assignment\\3.3P\\CounterTask\\CounterTask\\CounterTask.csproj"
+            "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\CounterTask\\CounterTask.csproj": {
+              "projectPath": "C:\\Users\\Pro\\Documents\\GitHub\\COS20007-LTDA\\3.3P\\CounterTask\\CounterTask\\CounterTask.csproj"
             }
           }
         }
