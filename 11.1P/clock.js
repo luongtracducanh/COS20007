@@ -33,10 +33,6 @@ class Clock {
 		this.hours.Reset();
 	}
 
-	get ReadTime() {
-		return `${this.hours.Count}:${this.minutes.Count}:${this.seconds.Count}`;
-	}
-
 	Tick() {
 		if (this.seconds.Count < 59) {
 			this.seconds.Increment();
@@ -53,6 +49,10 @@ class Clock {
 				}
 			}
 		}
+	}
+
+	get ReadTime() {
+		return `${this.hours.Count}:${this.minutes.Count}:${this.seconds.Count}`;
 	}
 }
 
