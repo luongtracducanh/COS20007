@@ -1,6 +1,6 @@
 class Counter {
 	value = 0;
-	
+
 	constructor(n) {
 		this.name = n;
 	}
@@ -16,7 +16,7 @@ class Counter {
 	Increment() {
 		this.value++;
 	}
-	
+
 	Reset() {
 		this.value = 0;
 	}
